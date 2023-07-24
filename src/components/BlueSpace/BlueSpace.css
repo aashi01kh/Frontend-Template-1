@@ -1,0 +1,36 @@
+/* BlueArea.css */
+
+.blue-area {
+  background-color: blue;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-half {
+  color: white;
+  font-weight: bold;
+}
+
+.right-half {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column; /* Add flex-direction: column to stack icons vertically */
+}
+
+/* Update the color and styling of icons as per your requirement */
+.right-half a {
+  color: white;
+  margin-bottom: 10px; /* Add margin-bottom to create space between icons */
+  text-decoration: none;
+}
+
+.right-half a:last-child {
+  margin-bottom: 0; /* Remove margin-bottom for the last icon to avoid extra spacing */
+}
+
+.right-half a:hover {
+  color: lightblue;
+}

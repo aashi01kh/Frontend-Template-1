@@ -1,0 +1,14 @@
+.business-navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .business-navigation .navigation .nav-link {
+    margin-right: 5px; /* Adjust the margin as needed */
+    cursor: pointer;
+  }
+  
+  .business-navigation .navigation .nav-link.active {
+    color: lightblue;
+  }
+  

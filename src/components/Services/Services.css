@@ -1,0 +1,77 @@
+
+/* Add styles for the blue line */
+.blue-line {
+    border: 1px solid blue;
+    width: 50px;
+    margin: 0 auto;
+  }
+  
+  /* Add styles to center the text and boxes */
+  .services-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the service boxes */
+  /* Add styles for the service boxes */
+  .service-box {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white; /* Set default border color to white */
+    margin: 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    max-width: 250px;
+    text-align: center; /* Center the text and icon */
+    position: relative; /* Add position relative to the service box */
+  }
+  
+  .service-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add styles for the icon */
+  .icon {
+    position: absolute; /* Position the icon relative to the service box */
+    top: -25px; /* Adjust the value to move the icon to the top center */
+    left: 50%; /* Center the icon horizontally */
+    transform: translateX(-50%); /* Adjust to perfectly center the icon horizontally */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make the icon circular */
+    background-color: white; /* Set the background color of the circular icon */
+    color: royalblue; /* Set the color of the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add styles for the "All Services" button */
+  .all-services-button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Adjust the value to set the spacing between the boxes and the button */
+  }
+  
+  .all-services-button:hover {
+    background-color: darkblue;
+  }
+  
+  /* Add border hover effect */
+  .service-box:hover {
+    border-color: royalblue; /* Change border color to royal blue on hover */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 576px) {
+    .service-box {
+      display: block;
+      margin: 20px auto;
+    }
+  }
+  

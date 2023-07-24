@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+// App.js
 import './App.css';
+import AnotherSection from './components/AnotherSection';
+import BlueSpace from './components/BlueSpace/BlueSpace';
+import BusinessNavigation from './components/Business/BusinessNavigation';
+import BlueFooter from './components/Footer/Footer';
+import InfoSection from './components/InfoSection';
+import LogosSection from './components/LogosSection';
+import ServicesSection from './components/Services/ServicesSection';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BlueSpace />
+      <BusinessNavigation />
+      <InfoSection /> 
+      <div style={{ height: '60px' }} />
+      <AnotherSection/>
+      <div style={{ height: '30px' }} />
+      <LogosSection/>
+      <div style={{ height: '150px' }} />
+     <ServicesSection />
+     <div style={{ height: '30px' }} />
+     <BlueFooter />
+     <div style={{ height: '30px' }} />
     </div>
   );
-}
-
+};
 export default App;
